@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat','Arial', sans-serif;
+}
+.space {
+    margin-bottom: 120px; 
+}
+
+
+
+/*********************************** NavBar *******************************/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFE4C6; 
+}
+
+.logo {
+    order: 1;
+}
+
+.social-icons {
+    order: 2; /* Change l'ordre d'affichage des icônes des réseaux sociaux à la première position */
+}
+
+/* Style facultatif pour les liens */
+.social-icons img {
+    margin-right: 10px; /* Ajoute un espace entre les icônes des réseaux sociaux */
+}
+
+/*********************************** Menu *******************************/
+
+
+.container_menu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFE4C6;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #141414;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #FE8400;
+    background-color: #141414;
+}
+/*********************************** footer *******************************/
+.footer-section {
+    background-color: #141414; /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 30px 20px; /* Padding for content inside the footer */
+    text-align: center; /* Center-align the content */
+}
+
+.footer-header {
+    margin-bottom: 20px; /* Add some space between header and content */
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer li {
+    margin: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FE8400; /* Orange color for links */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.footer a:hover {
+    color: #fff; /* Change color on hover */
+}
+/*********************************** logout/login *******************************/
+
+.logout {
+    background-color: #FFE4C6;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.logout a {
+    text-decoration: none;
+    color: #141414;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.login-link {
+    background-color: #FFE4C6;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.login-link a {
+    text-decoration: none;
+    color: #141414;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Ajoutez le reste de  CSS  */
+
+.user-details {
+    background-color: #FFE4C6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.fav-vehicles {
+    background-color: #FFE4C6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fav-vehicles img {
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 10px;
+}
+
+.fav-vehicles p {
+    margin: 0;
+}
+
+/* Ajoutez le reste de votre CSS ici */

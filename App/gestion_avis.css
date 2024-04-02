@@ -1,0 +1,55 @@
+.gestion_avis {
+    margin: 20px;
+    padding: 20px;
+    background-color: #141414; /* Background color of the table container */
+    color: white; /* Text color */
+    border-radius: 10px;
+    overflow: auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid white; /* Border between table rows */
+    color: white;
+}
+
+th {
+    background-color: #FE8400; /* Background color of the header */
+    color: #141414; /* Text color of the header */
+}
+
+a {
+    color: #FE8400; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #141414; /* Link color when clicked */
+}
+
+/* Style for buttons */
+button {
+    background-color: #FE8400; /* Background color of the button */
+    color: #141414; /* Text color of the button */
+    padding: 8px 12px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Style for buttons on hover */
+button:hover {
+    background-color: #FFA933; /* Change background color on hover */
+}

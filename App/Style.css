@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat','Arial', sans-serif;
+}
+.separer{
+    padding: 50px;
+}
+
+/*********************************** NavBar *******************************/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFE4C6; 
+}
+
+.logo {
+    order: 1;
+}
+
+.social-icons {
+    order: 2; /* Change l'ordre d'affichage des icônes des réseaux sociaux à la première position */
+}
+
+/* Style facultatif pour les liens */
+.social-icons img {
+    margin-right: 10px; /* Ajoute un espace entre les icônes des réseaux sociaux */
+}
+/*********************************** Menu *******************************/
+
+
+.container_menu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFE4C6;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #141414;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #FE8400;
+    background-color: #141414;
+}
+
+/*********************************** zone1 *******************************/
+
+
+.logo-section {
+    text-align: center;
+    padding: 20px;
+    background-image: url('./image/haha.png'); /* Background image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center top; /* Center the background image horizontally and position it at the top */
+    color: #fff; /* Set text color to white or a contrasting color */
+    height: 35vh; /* Set the height of the container to 50% of the viewport height */
+}
+.orange-line {
+    border-bottom: 2px solid #FE8400; /* Orange underline */
+}
+.logo-header h2 {
+    font-size: 2em;
+}
+
+
+
+
+
+

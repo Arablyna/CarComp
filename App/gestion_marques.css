@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE4C6; /* Couleur de fond */
+}
+
+.gestion_marque {
+    margin: 20px;
+    padding: 20px;
+    background-color: #141414; /* Couleur de fond du conteneur du tableau */
+    color: white; /* Couleur du texte */
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid white; /* Bordure entre les lignes du tableau */
+    color: white;
+}
+
+th {
+    background-color: #FE8400; /* Couleur de fond de l'en-tête */
+    color: #141414; /* Couleur du texte de l'en-tête */
+}
+
+td img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+}
+
+a {
+    color: #FE8400; /* Couleur du lien */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #141414; /* Couleur du lien au clic */
+}
+
+/* Add this CSS for your buttons */
+button {
+    background-color: #FE8400; /* Background color of the button */
+    color: #141414; /* Text color of the button */
+    padding: 8px 12px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Style for buttons on hover */
+button:hover {
+    background-color: #FFA933; /* Change background color on hover */
+}
+
+/* Style for the "Ajouter Marque" button */
+form[name='addmarqueForm'] {
+    text-align: center; /* Center-align the form */
+    margin-top: 20px; /* Add margin to separate from the table */
+}
+
+/* Apply the button styles to the "Ajouter Marque" button */
+form[name='addmarqueForm'] button {
+    background-color: #4CAF50; /* Background color for "Ajouter Marque" button */
+    color: white; /* Text color for "Ajouter Marque" button */
+    font-weight: bold; /* Make the text bold */
+    padding: 8px 12px; 
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto; /* Center-align the button */
+    display: block; /* Make the button a block element for margin auto to work */
+}

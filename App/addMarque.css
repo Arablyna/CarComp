@@ -1,0 +1,58 @@
+.marque-management-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #FE8400;
+}
+
+.add-marque-form, .marque-list {
+    background-color: #FFE4C6;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #141414;
+}
+
+input, textarea, button {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #FFA833;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #FFA833;
+    color: #FFE4C6;
+    cursor: pointer;
+    width: 90%;
+}
+
+button:hover {
+    background-color: #FE8400;
+}
+
+.marque-item {
+    background-color: #FE8400;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}

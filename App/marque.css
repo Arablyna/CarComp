@@ -1,0 +1,177 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat','Arial', sans-serif;
+}
+.space {
+    margin-bottom: 120px; /* Adjust the value as needed for the desired space */
+}
+
+
+
+/*********************************** NavBar *******************************/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFE4C6; 
+}
+
+.logo {
+    order: 1;
+}
+
+.social-icons {
+    order: 2; /* Change l'ordre d'affichage des icônes des réseaux sociaux à la première position */
+}
+
+/* Style facultatif pour les liens */
+.social-icons img {
+    margin-right: 10px; /* Ajoute un espace entre les icônes des réseaux sociaux */
+}
+/*********************************** footer *******************************/
+.footer-section {
+    background-color: #141414; /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 30px 20px; /* Padding for content inside the footer */
+    text-align: center; /* Center-align the content */
+}
+
+.footer-header {
+    margin-bottom: 20px; /* Add some space between header and content */
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer li {
+    margin: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FE8400; /* Orange color for links */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.footer a:hover {
+    color: #fff; /* Change color on hover */
+}
+/*********************************** logout/login *******************************/
+
+.logout {
+    background-color: #FFE4C6;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.logout a {
+    text-decoration: none;
+    color: #141414;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.login-link {
+    background-color: #FFE4C6;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.login-link a {
+    text-decoration: none;
+    color: #141414;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/*********************************** marque *******************************/
+.marques {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.marque {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.marque img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #FE8400;
+    border-radius: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.marque:hover {
+    transform: scale(1.05);
+}
+
+.marque:hover img {
+    border-color: #141414;
+}
+
+
+
+/*********************************** details-content *******************************/
+.details-content {
+    background-color: #FFE4C6;
+    padding: 20px;
+    border: 2px solid #FE8400;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.details-content p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #141414;
+}
+
+/* Style for the dropdown and button */
+#carDropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FE8400;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #141414;
+    color: #FFE4C6;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #FE8400;
+    color: #141414;
+}
+
+

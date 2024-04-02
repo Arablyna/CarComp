@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE4C6;
+}
+
+.gestion_vehicule {
+    margin: 20px;
+    padding: 20px;
+    background-color: #141414;
+    color: white;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+th {
+    background-color: #FE8400;
+    color: #141414;
+}
+
+td img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+}
+
+a {
+    color: #FE8400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #141414;
+}
+
+button {
+    background-color: #FE8400;
+    color: #141414;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FFA933;
+}
+
+/* Style for the "Ajouter Marque" button */
+form[name='addvehiculeForm'] {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form[name='addvehiculeForm'] button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    display: block;
+}
